@@ -22,7 +22,7 @@ def write_jsonl(data, filename):
 
 
 # Caminhos dos PDFs
-pdf_paths = ["documento1.pdf", "documento2.pdf"]
+pdf_paths = ["datawindow_reference_v2021.pdf", "powerscript_reference_v2021.pdf"]
 
 # Gerar arquivos JSONL para cada PDF
 for pdf_path in pdf_paths:
