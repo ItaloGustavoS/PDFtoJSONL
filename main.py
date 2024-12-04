@@ -1,10 +1,10 @@
-import PyMuPDF as fitz
+import pymupdf as PyMuPDF
 import json
 
 
 # Função para extrair texto de um PDF
 def extract_text_from_pdf(pdf_path):
-    doc = fitz.open(pdf_path)
+    doc = PyMuPDF.open(pdf_path)
     text_list = []
     for page_num in range(len(doc)):
         page = doc.load_page(page_num)
